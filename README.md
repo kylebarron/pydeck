@@ -43,6 +43,13 @@ yarn build   # build for deployment
 yarn deploy  # deploy (push to `gh-pages` branch)
 ```
 
+<<<<<<< HEAD
+=======
+Remarks:
+- There will be some warnings relating to examples not being referenced, these can be safely ignored.
+- you may need to setup certificates for Python if you have not already done so. Browse to `Applications/Python 3.8` and double-click `Install Certificates.command`.
+
+>>>>>>> Add example build
 > There is currently an issue in that the generated website will only work if the `docs/.nojekyll` file is present on github pages. This file is added by the build script, however the `gh-deploy` command does not seem to push this file. Until this is fixed, do the following after deploying:
 
 ```
