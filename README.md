@@ -43,7 +43,6 @@ yarn build   # build for deployment
 yarn deploy  # deploy (push to `gh-pages` branch)
 ```
 
-<<<<<<< HEAD
 =======
 Remarks:
 - There will be some warnings relating to examples not being referenced, these can be safely ignored.
@@ -76,7 +75,7 @@ make pre-init
 python --version
 which python
 
-# If not your default, you can do 
+# If not your default, you can do
 cd env
 . bin/activate
 
